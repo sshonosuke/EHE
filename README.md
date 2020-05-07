@@ -1,6 +1,6 @@
 This repository provides R code implementing robust regression using extremely heavy-tailed error distribution, as proposed by the following paper.
 
-Hamura, Y., Irie, K and Sugasawa, S. (2020). Log-Regularly Varying Scale Mixture of Normals for Robust Regression. 
+Hamura, Y., Irie, K and Sugasawa, S. (2020). Log-Regularly Varying Scale Mixture of Normals for Robust Regression. https://arxiv.org/abs/2005.02800
 
 The repository includes the following 5 files.
 
