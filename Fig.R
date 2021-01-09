@@ -2,13 +2,12 @@
 ##    Figures for density fucntions     ##
 ##--------------------------------------##
 EHE.dens <- function(s=0.1, gam=1, ep=seq(-4, 4, by=0.1)){
-  a <- 10^8
   mc <- 10000
   W <- rgamma(mc, gam, 1)
   V <- rgamma(mc, W, 1)
   V[V<0.001] <- 0.001
   U2 <- rgamma(mc, 1, V)
-  U1 <- rgamma(mc, a, a)
+  U1 <- rep(1, mc)
   Z <- rbinom(mc, 1, s)
   UU <- (1-Z)*U1 + Z*U2
   

@@ -1,4 +1,6 @@
-# data
+rm(list=ls())
+
+## data
 library(lars)
 data(diabetes)
 
@@ -12,15 +14,15 @@ hsig <- summary(fit.lm)$sigma
 
 # methods
 set.seed(1)
-source("EHE-function.R")
+source("EHE-LM-function.R")
 
 MC <- 5000
 Bn <- 2000
 
 fit <- EHE.HS(Y, X, mc=MC, burn=Bn)
 
-apply(fit$Beta, 2, mean)
-apply(fit$Beta, 2, quantile, prob=c(0.025, 0.975))
+apply(fit$Beta, 2, mean)    # posterior means
+apply(fit$Beta, 2, quantile, prob=c(0.025, 0.975))    # posterior credible intervals
 
 
 
