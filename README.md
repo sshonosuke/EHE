@@ -4,8 +4,11 @@ Hamura, Y., Irie, K and Sugasawa, S. (2020). Log-Regularly Varying Scale Mixture
 
 The repository includes the following 5 files.
 
- * EHE-function.R : The script implementing the proposed and alternative methods
+ * EHE-LM-function.R : The script implementing the proposed and alternative methods under linear regression models
+ * EHE-RI-function.R : The script implementing the proposed and alternative methods under random intercept models
+ * EHE-sp-function.R : The script implementing the proposed and alternative methods under spatial regression models
  * Fig.R : The script producing figures for density and cumulative distribution functions 
- * Sim.R : A one-shot simulation 
- * Boston.R: Illustration using Boston data 
- * Diabetes.R: Illustration using Diabetes data 
+ * Sim-LM.R : A one-shot simulation under linear regression models 
+ * Sim-RI.R : A one-shot simulation under random intercept models
+ * Boston.R: Illustration using the famous Boston housing data (spatial regression) 
+ * Diabetes.R: Illustration using the famous Diabetes data (linear regression)
