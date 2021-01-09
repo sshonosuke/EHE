@@ -2,7 +2,7 @@ This repository provides R code implementing robust regression using extremely h
 
 Hamura, Y., Irie, K and Sugasawa, S. (2020). Log-Regularly Varying Scale Mixture of Normals for Robust Regression. https://arxiv.org/abs/2005.02800
 
-The repository includes the following 5 files.
+The repository includes the following files.
 
  * EHE-LM-function.R : The script implementing the proposed and alternative methods under linear regression models
  * EHE-RI-function.R : The script implementing the proposed and alternative methods under random intercept models
