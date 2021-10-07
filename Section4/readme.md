@@ -8,11 +8,7 @@ Hamura, Y., Irie, K and Sugasawa, S. (2020). Log-Regularly Varying Scale Mixture
  * Sim-LM-n50.R : The script to carry out simulation study in Seciton 4.1
  * Sim-LM-n300.R : The script to carry out simulation study in Seciton 4.2
  * Sim-LM-n300-supplement.R : The script to carry out simulation study in Seciton 4.2
- * 
- * 
- * models
- * Fig.R : The script producing figures for density and cumulative distribution functions 
- * Sim-LM.R : A one-shot simulation under linear regression models 
- * Sim-RI.R : A one-shot simulation under random intercept models
- * Boston.R: Illustration using the famous Boston housing data (spatial regression) 
- * Diabetes.R: Illustration using the famous Diabetes data (linear regression)
+ * Sim-RI.R: The script to carry out simulation study in Seciton 4.3
+ * Summary-LM-n50.R: The script to produce Tables 1 and S1 
+ * Summary-LM-n300.R: The script to produce Tables 2 and S2 
+ * Summary-RI.R: The script to produce Table 3
